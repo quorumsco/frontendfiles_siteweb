@@ -20,7 +20,7 @@
     "browser-sync": "latest",
     "browserify": "latest",
     "chance": "latest",
-	"coffeify":"latest",
+    "coffeeify":"latest",
     "font-awesome": "latest",
     "gulp": "latest",
     "gulp-changed": "latest",

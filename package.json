@@ -1,0 +1,55 @@
+{
+  "name": "quorums",
+  "version": "0.0.1",
+  "description": "Quorums frontend",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/quorumsco/frontendfiles_siteweb.git"
+  },
+  "browserify": {
+    "transform": [
+      ["babelify", { "presets": ["babel-preset-es2015"] }],
+      "partialify",
+      "jadeify"
+    ]
+  },
+  "devDependencies": {
+    "babelify": "latest",
+    "babel-preset-es2015": "latest",
+    "browser-sync": "latest",
+    "browserify": "latest",
+    "chance": "latest",
+	"coffeify":"latest",
+    "font-awesome": "latest",
+    "gulp": "latest",
+    "gulp-changed": "latest",
+    "gulp-compass": "latest",
+    "gulp-concat": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-jade": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-modernizr": "latest",
+    "gulp-notify": "latest",
+    "gulp-size": "latest",
+    "gulp-streamify": "latest",
+    "gulp-uglify": "latest",
+    "jade": "latest",
+    "jadeify": "latest",
+    "lodash": "latest",
+    "merge-stream": "latest",
+    "normalize.css": "latest",
+    "page": "latest",
+    "partialify": "latest",
+    "socket.io": "latest",
+    "superagent": "latest",
+    "vinyl-source-stream": "latest",
+    "vue": "0.12.8"
+  },
+  "dependencies": {
+    "superagent-cache": "~1.0.3",
+    "superagent-no-cache": "uditalias/superagent-no-cache",
+    "cache-service": "~1.3.2",
+    "cache-service-cache-module": "~1.1.1"
+  }
+}
